@@ -4,15 +4,13 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /*
- * Урок 6. Хранение и обработка данных ч3: множество коллекций Set
- *  Формат сдачи: ссылка на подписанный git-проект.
  * Задание
  *  Реализуйте структуру телефонной книги с помощью HashMap.
- *  Программа также должна учитывать, что в во входной структуре будут повторяющиеся имена с разными телефонами, 
- *  их необходимо считать, как одного человека с разными телефонами. Вывод должен быть отсортирован по убыванию числа телефонов.
+ * Программа также должна учитывать, что в во входной структуре будут повторяющиеся имена с разными 
+ * телефонами, их необходимо считать, как одного человека с разными телефонами. Вывод должен быть 
+ * отсортирован по убыванию числа телефонов.
  */
 
-// pro (KGB1st) Alex Deroza Copyright (c) 2024
 class PhoneRow {
     private String _unit_name;
     private ArrayList<Integer> _phone_number = new ArrayList<>();
@@ -40,7 +38,6 @@ class PhoneRow {
     }
 }
 
-// pro (KGB1st) Alex Deroza Copyright (c) 2024
 class PhoneBook {
     private int _ai = 0;
     private static HashMap<Integer, PhoneRow> phoneBook = new HashMap<>();
@@ -78,7 +75,6 @@ class PhoneBook {
     }
 }
 
-// pro (KGB1st) Alex Deroza Copyright (c) 2024
 class Printer {
     public static void main(String[] args) {
         String name1;
